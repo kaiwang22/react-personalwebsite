@@ -2,7 +2,53 @@
   text-align: center;
 }
 
+body {
+  background: #d8f4f2;
+  font-family: Lato;
+}
 
+img {
+  width: 288px;
+  height: 384px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.page-header-pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: center;
+  flex-grow: 3;
+  flex-flow: row wrap;
+  gap: 60px;
+}
+
+.page-body{
+  flex-direction: column;
+}
+
+#page-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.links{
+  display: flex;
+  gap: 30px;
+  order: 4;
+}
+
+.page-body{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.page-header-pic{
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -19,11 +65,5 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+

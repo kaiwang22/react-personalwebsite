@@ -2,8 +2,8 @@
 import './App.css';
 import Header from './components/header.js'
 import Interests from './components/interests.js'
-import Resume from '.components/resume.js'
-import subHeader from '.components/subheader.js'
+import Resume from './components/resume.js'
+import subHeader from './components/subheader.js'
 
 function App() {
   return (
@@ -24,8 +24,16 @@ function App() {
         <Resume resume = "can slightly wiggle my ears"> </Resume>
         <Resume resume = "I have a lightning bolt scar on my right hand"> </Resume>
         <Resume resume = "I've only lost money in the stock market"> </Resume>
+        <div class = "links">
+          <a href="https://github.com/kaiwang22">github</a>
+          <a href="https://www.linkedin.com/in/kai-wang-2b6a631b5/">linkedin</a>
+          </div>
       </div>
-
+      <div class="page-header">
+                   <div class="page-header-pic">
+                    <img src="kaiselfie.JPG" alt="kaiselfie" />
+                   </div>
+      </div>
     </div>
   );
 }

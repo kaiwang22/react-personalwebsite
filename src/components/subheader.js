@@ -1,9 +1,9 @@
-import './App.css';
+import '../App.css';
 
 function subHeader( {subname}) {
     return (
         <div className= "sub-header">
-            <h2> penn {subname} </h2>
+            <h2> {subname} </h2>
         </div>
     );
 }
